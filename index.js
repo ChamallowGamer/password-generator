@@ -45,4 +45,9 @@ function generer() {
     text.innerHTML = mdp;
 }
 
+function copier() {
+    var text = document.getElementById("mdp");
+    navigator.clipboard.writeText(text.innerHTML)
+}
+
 //Autheur : Malo Berry

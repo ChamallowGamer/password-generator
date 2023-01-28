@@ -1,3 +1,47 @@
 body{
-    background-color: grey;
+    background-color: #272525;
+}
+
+p.footer{
+    text-align: right;
+    padding: 70 0;
+}
+
+h1{
+    background-color: aqua;
+    border-radius: 30px;
+    width: 500px;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    height:100px;
+}
+
+button.generer{
+    border-radius: 30px;
+    background-color: green;
+    width: 70px;
+    height: 35px;
+}
+
+button.generer:hover{
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+}
+
+button.copier{
+    border-radius: 30px;
+    background-color: lightgreen;
+    width: 70px;
+    height: 35px;
+}
+
+button.copier:hover{
+    background-color: aqua;
+    width: 80px;
+    height: 40px;
 }
