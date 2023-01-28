@@ -1,5 +1,5 @@
 body{
-    background-color: #272525;
+    background-color: #1F3C9E;
 }
 
 p.footer{
@@ -8,7 +8,7 @@ p.footer{
 }
 
 h1{
-    background-color: aqua;
+    background-color:chocolate;
     border-radius: 30px;
     width: 500px;
 }
@@ -23,25 +23,23 @@ footer{
 button.generer{
     border-radius: 30px;
     background-color: green;
-    width: 70px;
+    width: 80px;
     height: 35px;
 }
 
 button.generer:hover{
-    background-color: blue;
-    width: 80px;
+    width: 90px;
     height: 40px;
 }
 
 button.copier{
     border-radius: 30px;
     background-color: lightgreen;
-    width: 70px;
+    width: 80px;
     height: 35px;
 }
 
 button.copier:hover{
-    background-color: aqua;
-    width: 80px;
+    width: 90px;
     height: 40px;
 }
