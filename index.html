@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <div align="center">
-        <h1>Generateur de mot de passe</h1>
-        <br><br>
-        <button onclick="generer()" class="generer">Generer</button>
-        <button onclick="generer3()" class="generer">Generer 3</button>
-        <h2>Mot de passe :</h3>
-        <p id="mdp"></p>
-        <button onclick="copier()" class="copier">Copier</button>
+        <h2>Générateur de mot de passe</h2>
+        
 
-    </div>
+        <input type="number" min="8" max="32" id="length" value="24">
+        <br>
+        <br>
+        <button onclick="generate()">Générer</button>
     
+        <h3 id="password">
+            Clique sur le bouton "Générer"
+        </h3>
+        <br>
+        <button onclick="copy()" class="copy">Copier le mot de passe</button>
+    </div>
     <footer>
-        <p id="footer">Créer par Malo Berry</p>
+        Malo Berry
     </footer>
-    <script src="./index.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
